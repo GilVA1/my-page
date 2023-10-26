@@ -6,7 +6,7 @@ import "../style.css";
 export default function AboutMe(props) {
   return(
    <div>
-  <div class="header">
+  <div className="header">
   <h1>Hello, my name is {props.name}</h1>
   <h2>I study {props.studyField}</h2>
   

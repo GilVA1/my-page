@@ -1,3 +1,41 @@
 .header{
     background-color: rgb(0, 68, 216);
 }
+
+
+/* study the nav css  */
+
+.nav{
+    background-color: rgb(7, 224, 214);
+    color:black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+
+}
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display:inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a{
+    color:rgb(0, 0, 0);
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 11rem;
+}
+
+.nav li.active{
+    background-color: black;
+}
+
+.nav li:hover{
+    background-color: rgb(11, 25, 214);
+}
