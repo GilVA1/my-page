@@ -1,41 +1,56 @@
 .header{
-    background-color: rgb(0, 68, 216);
+    background-color: rgb(98, 136, 218);
+    padding:20px;
+    font-weight: bold;
 }
-
+.header h1{
+    font-weight: bold;
+}
 
 /* study the nav css  */
 
 .nav{
-    background-color: rgb(7, 224, 214);
-    color:black;
+    background-color: rgb(88, 91, 122);
     display:flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5px;
+    padding: 10px;
 
 }
 .nav ul{
     padding:0;
-    margin:0;
     list-style: none;
-    display:inline;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.nav li{
+    padding:0 5px;
 }
 
 .nav a{
     color:rgb(0, 0, 0);
     justify-content: space-between;
     text-decoration: none;
-    padding: 11rem;
+    padding:25px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 16px;
+}
+.main_header{
+    text-align: right;
 }
 
-.nav li.active{
-    background-color: black;
+.nav a.active{
+    font-weight: bold;
 }
 
-.nav li:hover{
-    background-color: rgb(11, 25, 214);
+.nav a:hover{
+    background-color: rgb(48, 49, 73);
 }
+
+#my_name{
+    text-align: right; 
+    margin-right: 20px; 
+    font-weight: bold;
+}
+

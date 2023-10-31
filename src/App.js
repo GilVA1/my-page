@@ -2,9 +2,10 @@ import './App.css';
 import AboutMe from './pages/about_me.js';
 import Skills from "./pages/skills.js"
 import NavBar from './components/NavBar';
+import Projects from './pages/Projects';
 function App() {
 
-  const myName="Gil"
+  const myName="Gilberto"
 
   let Page
 
@@ -15,8 +16,8 @@ function App() {
     case "/skills":
       Page=<Skills/>
       break
-    /*case "/projects":
-      Page=Projects*/
+    case "/projects":
+      Page=<Projects/>
     
       
   }
@@ -25,7 +26,6 @@ function App() {
     <div>
     <NavBar/>
     {Page}
-    <h2>hello</h2>
     </div>
 );
 }
