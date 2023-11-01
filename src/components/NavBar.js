@@ -9,7 +9,7 @@ function NavBar(){
        <nav className="nav">
         <ul>
         <li>
-        <Link className={path === "my-page" ? "active":""}to="/my-page">About me</Link>
+        <Link className={path === "" ? "active":""}to="/my-page/">About me</Link>
         </li>
 
         <li>

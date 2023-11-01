@@ -37,10 +37,13 @@ function App() {
 
     <NavBar/>
     <Routes>
-    <Route path="/my-page" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
+    <Route path="/my-page/" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
     <Route path="/skills" element={<Skills/>}/>
     <Route path="/projects" element={<Projects/>}/>
     </Routes>
+
+
+
 
     </>
 );
