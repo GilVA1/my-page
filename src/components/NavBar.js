@@ -1,18 +1,23 @@
 import "../style.css" 
+import { Link,useLocation } from "react-router-dom"
 function NavBar(){
+
+    const relativePath=useLocation();
+    const path = relativePath.pathname.split("/").pop(); 
+    
     return(
        <nav className="nav">
         <ul>
         <li>
-        <a className={window.location.pathname === "/" ? "active":""}href="/">About me</a>
+        <Link className={path === "my-page" ? "active":""}to="/my-page">About me</Link>
         </li>
 
         <li>
-        <a className={window.location.pathname === "/skills" ? "active":""}    href="/skills">My skills</a>
+        <Link className={path === "skills" ? "active":""}   to="/skills">My skills</Link>
         </li>
 
         <li>
-        <a className={window.location.pathname === "/projects" ? "active":""}href="/projects">My projects</a>
+        <Link className={path=== "projects" ? "active":""}to="/projects">My projects</Link>
         </li>
         
     
