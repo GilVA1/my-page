@@ -30,14 +30,13 @@ export default function AboutMe(props) {
   </h4>
   <br></br>
   <h4>  
-    While I still have not had a formal programming job, I have worked in many diverse programming projects at school in a format similar to
+    I have had some work experience in web development with a company called Clever Cloud MX in the creation and maintenance of web applications, and I have also worked with a civil association called Geostats in the 
+    analysis of data and data visualization of different problems in the city using the React framework, I have also worked in many diverse programming projects at school in a format similar to
     that of a work environment, having a client company give us the requirements of a product that meets their needs, and work alongside a team to build software over a specified time window.
     Applying concepts of the newest technology trends.
   </h4>
   
   </div>
-  
-  
 
   </div> 
   )

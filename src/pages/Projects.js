@@ -7,7 +7,9 @@ export default function Projects(){
         
         "Q-learning simulation: A multiagent simulation using Python and Unity, about John Deere wheat recollection in a field. Python was used to process the movement logic of all vehicles and Q-learning, while Unity was used to create the visual representation using models of the simulation in real time.",
 
-        "Multi-threading synthax highlighter: Creating a program using Clojure and multithreading to parse a text file and create an html file by itself that acts as a pseudo IDE (It highlights different tokens with different colors, and computes simple operations like sums,multiplications, exponents (and their inverse functions))."
+        "Multi-threading synthax highlighter: Creating a program using Clojure and multithreading to parse a text file and create an html file by itself that acts as a pseudo IDE (It highlights different tokens with different colors, and computes simple operations like sums,multiplications, exponents (and their inverse functions)).",
+
+        "Nuevo amanecer: Android application for the continuous learning of children with learning disabilities, involving image sorting, number games, and a database to store user data. "
 
     ]
     const word_lists = projects.map((project) => project.split(":") )

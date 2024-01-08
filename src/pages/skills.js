@@ -19,7 +19,9 @@ function Skills(){
     const certifications=["AP Calculus BC score of 5","Coursera:Python data structures","Coursera:Programming for everybody"]
     const render_certifications=certifications.map((certificate,index)=>(<li key={index}>{certificate}</li>))
     
-    
+    const awards=["3rd place in HackMTY 2022 Banorte challenge", "3rd place in ICPC competition simulation in the extracurricular data structure course"]
+    const render_awards=awards.map((award,index)=> (<li key={index}>{award}</li>)  )
+
     return(
         <div>
         <h1 className="header">Skills I have developed so far:</h1>
@@ -32,6 +34,10 @@ function Skills(){
 
         <h2>Certifications</h2>
         <ul>{render_certifications}</ul>
+
+        <h2>Awards</h2>
+        <ul>{render_awards}</ul>
+
 
         </div>
     )
