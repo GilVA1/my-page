@@ -1,31 +1,53 @@
-import "../style.css" 
-import { Link,useLocation } from "react-router-dom"
-function NavBar(){
+import "../style.css";
+import { Link, useLocation } from "react-router-dom";
 
-    const relativePath=useLocation();
-    const path = relativePath.pathname.split("/").pop(); 
-    
-    return(
-       <nav className="nav">
-        <ul>
-        <li>
-        <Link className={path === "" ? "active":""}to="/my-page/">About me</Link>
-        </li>
+function NavBar() {
+    const location = useLocation();
+    const currentPath = location.pathname.replace(/^\/|\/$/g, '');  
 
-        <li>
-        <Link className={path === "skills" ? "active":""}   to="/skills">My skills</Link>
-        </li>
+    return (
+        <nav className="nav">
+            <ul>
+                <li>
+                    <Link className={currentPath === "my_page" || currentPath === "" ? "active" : ""} to="/my_page">
+                        About me
+                    </Link>
+                </li>
 
-        <li>
-        <Link className={path=== "projects" ? "active":""}to="/projects">My projects</Link>
-        </li>
-        
-    
-        </ul>
-        <h3 id="my_name">My webpage-Gilberto Valdez Arreola</h3>
+                <li>
+                    <Link className={currentPath === "highlights" ? "active" : ""} to="/highlights">
+                        Top highlights 
+                    </Link>
+                </li>
+
+                <li>
+                    <Link className={currentPath === "skills" ? "active" : ""} to="/skills">
+                        My skills
+                    </Link>
+                </li>
+
+                <li>
+                    <Link className={currentPath === "work_experience" ? "active" : ""} to="/work_experience">
+                        My work experience
+                    </Link>
+                </li>
+
+
+                <li>
+                    <Link className={currentPath === "projects" ? "active" : ""} to="/projects">
+                        My projects
+                    </Link>
+                </li>
+
+                
+
+
+
+
+            </ul>
+            <h3 id="my_name">My webpage - Gilberto Valdez Arreola</h3>
         </nav>
-    )
-
+    );
 }
 
-export default NavBar
+export default NavBar;

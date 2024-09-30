@@ -1,17 +1,18 @@
 import React from "react"
 
 function Skills(){
-    const programming_languages=["Programming languages: Python,C++,Javascript,Typescript,Clojure","Git version control and Github","Frameworks/Libraries: React,Jetpack Compose ,Arduino"]
-    const render=programming_languages.map((language,index)=>(<li key={index}>{language}</li>))
+    const programming_tools=["Programming languages: Python,C++,Javascript/Typescript,Clojure,Kotlin,php","Git version control and Github","Frameworks/Libraries: React,Next.js, Express,js, Android Studio, Jetpack Compose ,Arduino"
+        ,"Databases: MongoDB Atlas, MySQL , PostgreSQL "]
+    const render=programming_tools.map((language,index)=>(<li key={index}>{language}</li>))
 
     const tech_skills=[
-        "Creating websites and web applications using React",
-        "Creating android apps using Android studio and libraries like Jetpack Compose",
-        "Creating efficient algorythms to solve data structure problems",
-        "Creatign Object oriented programs to simulate system logic",
-        "Mathematical and logical reasoning to solve problems and creating solutions in the best way possible"
-        
-        
+        "Building websites and web applications using React , Next.js or Vue.js",
+        "programming back-end services that help maintain databases (Express.js, MongoDB, MySQL)",
+        "developing android apps using Android studio and libraries like Jetpack Compose",
+        "Creating efficient algorithms to solve data structure problems",
+        "Implement Object oriented programs to simulate business logic",
+        "Mathematical and logical reasoning to solve problems and creating solutions in the best way possible",
+        "Research of brain MRI data using Python libraries for medical image processing, like Numpy, Nibabel and other software tools like Freeview"
 ]
     const render_tech=tech_skills.map((skill,index)=>(<li key={index}>{skill}</li>))
 

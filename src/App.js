@@ -3,47 +3,29 @@ import AboutMe from './pages/about_me.js';
 import Skills from "./pages/skills.js"
 import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
-import { Route,Routes } from 'react-router-dom';
+import Highlights from './pages/highlights.js';
+import WorkExperience from './pages/work_experience.js';
+import { Route, Routes,Navigate } from 'react-router-dom';
 
 
 function App() {
 
   const myName="Gilberto"
-/*
-  let Page
-
-  switch(window.location.pathname){
-    case "/":
-      Page=<AboutMe name={myName} studyField="Computer Science"/>
-      break
-    case "/skills":
-      Page=<Skills/>
-      break
-    case "/projects":
-      Page=<Projects/>
-      break
-    case "/my-page":
-      Page=<AboutMe name={myName} studyField="Computer Science"/>
-      break
-      
-  }
-  
-  {Page}
-  */
 
   return (
 
     <>
 
-    <NavBar/>
-    <Routes>
-    <Route path="/my-page/" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
-    <Route path="/skills" element={<Skills/>}/>
-    <Route path="/projects" element={<Projects/>}/>
-    </Routes>
+      <NavBar/>
 
-
-
+      <Routes>
+        <Route path="/my-page" element={<Navigate to="/my_page" />} />
+        <Route path="/my_page" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
+        <Route path="/skills" element={<Skills/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/highlights" element={<Highlights/>}/>
+        <Route path="/work_experience" element={<WorkExperience/>}/>
+      </Routes>
 
     </>
 );

@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(98, 136, 218);
+    background-color:  #98c1d9 ;
     padding:20px;
     font-weight: bold;
 }
@@ -10,7 +10,7 @@
 /* study the nav css  */
 
 .nav{
-    background-color: rgb(88, 91, 122);
+    background-color: #3d5a80;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@
 }
 
 .nav a:hover{
-    background-color: rgb(48, 49, 73);
+    background-color: #25385a;
 }
 
 #my_name{
@@ -54,3 +54,9 @@
     font-weight: bold;
 }
 
+body {
+    background-color: #ee6c4d; /* White */
+    color: #811919; 
+    font-family: Arial, sans-serif; /* Example font */
+    line-height: 1.6; /* Line height for readability */
+  }

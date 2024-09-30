@@ -5,38 +5,40 @@ import "../style.css";
 //Fast export
 export default function AboutMe(props) {
   return(
-   <div>
+  <div>
+
+    <div className="header">
+    <h1>About myself...</h1>
+    </div>
 
 
+    <div id="about_me_text">
+    <h1>Hello, my name is {props.name}, and I am studying {props.studyField}</h1>
+    
+      <br></br>
+      
+      <h5> 
 
+        I have always had a fascination towards mathematics and logic, always challenging myself with advanced
+        math classes since elementary school, and I also like working with computers to produce a variety of tools
+        and projects that helps solve a particular problem, from performing multiple mathematical operations, to building websites and webapps.
+      
+        My main goal as a Software engineer is to be able to sit down on a comfortable and stylish lounge of a tech company's offices, and be able to contribute to software products used world wide, all while sipping on a cup of cold brew coffee.
+      </h5>
 
-  <div className="header">
-  <h1>About myself...</h1>
-  </div>
-
-
-  <div id="about_me_text">
-  <h4>Hello, my name is {props.name}, and I am studying {props.studyField}</h4>
-  
     <br></br>
-    
-  <h4> 
+      
+    <h5> 
+    Please feel free to navigate the different tabs in this website that show my software engineering journey so far, also check my README.md if you are interested in a more extensive summary of who I am and what my career goals are (check it out on: https://github.com/GilVA1/my_page).
+  
+    </h5>
 
-    I have always had a fascination towards mathematics and logic, always challenging myself with advanced
-    math classes since elementary school, and I also like working with computers to produce a variety of tools
-    and projects that helps solve a particular problem, from performing multiple mathematical operations, to building websites and webapps.
-  
+    <h5>
+      
+    </h5>
     
-  </h4>
-  <br></br>
-  <h4>  
-    I have had some work experience in web development with a company called Clever Cloud MX in the creation and maintenance of web applications, and I have also worked with a civil association called Geostats in the 
-    analysis of data and data visualization of different problems in the city using the React framework, I have also worked in many diverse programming projects at school in a format similar to
-    that of a work environment, having a client company give us the requirements of a product that meets their needs, and work alongside a team to build software over a specified time window.
-    Applying concepts of the newest technology trends.
-  </h4>
-  
-  </div>
+
+    </div>
 
   </div> 
   )
