@@ -9,7 +9,7 @@ function NavBar() {
         <nav className="nav">
             <ul>
                 <li>
-                    <Link className={currentPath === "my_page" || currentPath === "" ? "active" : ""} to="/my_page">
+                    <Link className={currentPath === "my-page" || currentPath === "" ? "active" : ""} to="/my-page">
                         About me
                     </Link>
                 </li>

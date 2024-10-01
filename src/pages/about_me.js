@@ -29,7 +29,7 @@ export default function AboutMe(props) {
     <br></br>
       
     <h5> 
-    Please feel free to navigate the different tabs in this website that show my software engineering journey so far, also check my README.md if you are interested in a more extensive summary of who I am and what my career goals are (check it out on: https://github.com/GilVA1/my_page).
+    Please feel free to navigate the different tabs in this website that show my software engineering journey so far, also check my README.md if you are interested in a more extensive summary of who I am and what my career goals are (check it out on: https://github.com/GilVA1/my-page).
   
     </h5>
 

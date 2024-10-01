@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
 import Highlights from './pages/highlights.js';
 import WorkExperience from './pages/work_experience.js';
-import { Route, Routes,Navigate } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 
 
 function App() {
@@ -19,8 +19,7 @@ function App() {
       <NavBar/>
 
       <Routes>
-        <Route path="/my-page" element={<Navigate to="/my_page" />} />
-        <Route path="/my_page" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
+        <Route path="/my-page" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/highlights" element={<Highlights/>}/>
