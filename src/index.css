@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap'); 
 body {
   margin: 0;  
-  font-family: 'Fira Code', monospace;
+  font-family: 'Fira Code', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(3,13,34,255) !important;
