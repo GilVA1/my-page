@@ -45,7 +45,7 @@ function NavBar() {
 
 
             </ul>
-            <h3 id="my_name">My webpage - Gilberto Valdez Arreola</h3>
+            <h4 id="page_title">My webpage - Gilberto Valdez Arreola</h4>
         </nav>
     );
 }

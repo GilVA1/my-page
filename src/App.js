@@ -12,13 +12,15 @@ function App() {
 
   const myName="Gilberto"
 
+  // Hacky way to change background color
+  //document.body.style = 'background: black;'; 
   return (
 
     <>
 
       <NavBar/>
 
-      <Routes>
+      <Routes> 
         <Route path="/my-page" element={<AboutMe name={myName} studyField="Computer Science"/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/projects" element={<Projects/>}/>

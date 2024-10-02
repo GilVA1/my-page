@@ -28,7 +28,7 @@ export default function Highlights(){
      
 
         const render_highlights = highlight_moments.map((highlight_item, index) => (
-            <li key={index} style={{ padding: "20px", display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
+            <li key={index} style={{ padding: "15px", display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "20px" }}>
               <div style={{ flex: 1 }}> 
                 <h2>{highlight_item.title}</h2>
                 <h5>{highlight_item.description}</h5>

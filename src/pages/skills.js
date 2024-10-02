@@ -25,7 +25,12 @@ function Skills(){
 
     return(
         <div>
+
+        
+
         <h1 className="header">Skills I have developed so far:</h1>
+
+        <div style={{paddingLeft:"15px"}}>
 
         <h2>Programming tools I know:</h2>
         <ul>{render}</ul>
@@ -38,7 +43,8 @@ function Skills(){
 
         <h2>Awards</h2>
         <ul>{render_awards}</ul>
-
+        
+        </div>
 
         </div>
     )

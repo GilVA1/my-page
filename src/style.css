@@ -1,16 +1,17 @@
 .header{
-    background-color:  #98c1d9 ;
+    background-color:  #1c1347;
     padding:20px;
     font-weight: bold;
 }
-.header h1{
+.header h1 , .header{
     font-weight: bold;
+    color:#a2990a !important;
 }
 
 /* study the nav css  */
 
 .nav{
-    background-color: #3d5a80;
+    background-color: #0d0936;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -24,16 +25,17 @@
 }
 
 .nav li{
-    padding:0 5px;
+    padding:0 2px;
+    color: #0ab2db;
 }
 
 .nav a{
-    color:rgb(0, 0, 0);
+    color:#0ab2db;
     justify-content: space-between;
     text-decoration: none;
     padding:25px;
-    padding-left: 40px;
-    padding-right:40px;
+    padding-left: 25px;
+    padding-right:25px;
     font-size: 16px;
 }
 .main_header{
@@ -48,15 +50,25 @@
     background-color: #25385a;
 }
 
-#my_name{
+#page_title{
     text-align: right; 
     margin-right: 20px; 
     font-weight: bold;
+    color: #901aa4 !important; 
 }
 
-body {
-    background-color: #ee6c4d; /* White */
-    color: #811919; 
-    font-family: Arial, sans-serif; /* Example font */
-    line-height: 1.6; /* Line height for readability */
-  }
+h5,h4,h3,li{
+    color: #ffffff !important;
+}
+
+h1,h2{
+    color:#05a7d5 !important;
+
+
+}
+
+/*#d8188a
+
+
+
+*/
