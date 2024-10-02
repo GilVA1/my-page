@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.942d3be2.css",
-    "main.js": "/my-page/static/js/main.c9439195.js",
+    "main.css": "/my-page/static/css/main.134d3417.css",
+    "main.js": "/my-page/static/js/main.07d01389.js",
     "static/js/453.adce1021.chunk.js": "/my-page/static/js/453.adce1021.chunk.js",
     "static/media/hackMTY_banorte.png": "/my-page/static/media/hackMTY_banorte.bab6b708def8c0c499a5.png",
     "static/media/bch.jpeg": "/my-page/static/media/bch.a4a7bbb6e4d55b263835.jpeg",
     "static/media/hack_harvard.png": "/my-page/static/media/hack_harvard.79e14d67f4c3a31f33a4.png",
     "index.html": "/my-page/index.html",
-    "main.942d3be2.css.map": "/my-page/static/css/main.942d3be2.css.map",
-    "main.c9439195.js.map": "/my-page/static/js/main.c9439195.js.map",
+    "main.134d3417.css.map": "/my-page/static/css/main.134d3417.css.map",
+    "main.07d01389.js.map": "/my-page/static/js/main.07d01389.js.map",
     "453.adce1021.chunk.js.map": "/my-page/static/js/453.adce1021.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.942d3be2.css",
-    "static/js/main.c9439195.js"
+    "static/css/main.134d3417.css",
+    "static/js/main.07d01389.js"
   ]
 }
